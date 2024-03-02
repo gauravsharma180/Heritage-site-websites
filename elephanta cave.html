@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephanta Caves</title>
+</head>
+<style>
+    .slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(218, 58, 58);
+  }
+  .head{
+    text-align: center;
+    color: bisque;
+    font-size: 20px;
+    text-decoration: double;
+  }
+  .about{
+    font-size: 2rem;
+    color: bisque;
+    text-align: center;
+  }
+  body{
+    background-color: rgb(199, 103, 34);
+  }
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1>Elephanta Caves</h1>
+    </div>
+<div class="slider">
+  <span id="slide-1"></span>
+  <span id="slide-2"></span>
+  <span id="slide-3"></span>
+  <div class="image-container">
+    <img src="https://imgs.search.brave.com/CKLhqDzcXHRI0OkzYMxPsbWoEGZwHKS3pE_A3xxJbwE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTEudGhyaWxsb3Bo/aWxpYS5jb20vZmls/ZXN0b3JlL3FqNjJu/aDY4ZmF0aXZrMzBq/bnkzaTZvc3J6Z3df/MTUyNDIyOTM0OF9F/bGVwaGFudGFfY2F2/ZXMuanBnP3c9MTQ0/MCZkcHI9Mg" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/hkatGOHy26g2dRejRULaLWYqHzXCoNSoHwhRx6se5fE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNjI5/Mzk2Mzg4L3Bob3Rv/L2VsZXBoYW50YS1j/YXZlcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9bkt1M3lx/eWp1Q3c4bGItcDRm/ZmF1UjdsMUFwN0VP/M1RZdnExTzFEbkZx/Yz0" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/txY2vCRD2YfeesUlQkpKXC-lzCCA6bgty7_KyGqOlWE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9paW1nLmNv/bS9waG90by9tc2lk/LTk2MjA1MjA2LHdp/ZHRoLTk2LGhlaWdo/dC02NS5jbXM" class="slide" width="500" height="300" />
+  </div>
+  <div class="buttons">
+    <a href="#slide-1"></a>
+    <a href="#slide-2"></a>
+    <a href="#slide-3"></a>
+  </div>
+</div>
+<div class="about">
+    <p>The Elephanta Caves are located in Western India on Elephanta Island (otherwise known as the Island of Gharapuri), which features two hillocks separated by a narrow valley. The small island is dotted with numerous ancient archaeological remains that are the sole testimonies to its rich cultural past. These archaeological remains reveal evidence of occupation from as early as the 2nd century BC. The rock-cut Elephanta Caves were constructed about the mid-5th to 6th centuries AD. The most important among the caves is the great Cave 1, which measures 39 metres from the front entrance to the back. In plan, this cave in the western hill closely resembles Dumar Lena cave at Ellora, in India. The main body of the cave, excluding the porticos on the three open sides and the back aisle, is 27 metres square and is supported by rows of six columns each.
+
+      The 7-metre-high masterpiece “Sadashiva” dominates the entrance to Cave 1. The sculpture represents three aspects of Shiva: the Creator, the Preserver, and the Destroyer, identified, respectively, with Aghora or Bhairava (left half), Taptapurusha or Mahadeva (central full face), and Vamadeva or Uma (right half). Representations of Nataraja, Yogishvara, Andhakasuravadha, Ardhanarishwara, Kalyanasundaramurti, Gangadharamurti, and Ravanaanugrahamurti are also noteworthy for their forms, dimensions, themes, representations, content, alignment and execution.
+      
+      The layout of the caves, including the pillar components, the placement and division of the caves into different parts, and the provision of a sanctum or Garbhagriha of sarvatobhadra plan, are important developments in rock-cut architecture. The Elephanta Caves emerged from a long artistic tradition, but demonstrate refreshing innovation. The combination of aesthetic beauty and sculptural art, replete with respondent Rasas, reached an apogee at the Elephanta Caves. Hindu spiritualistic beliefs and symbology are finely utilized in the overall planning of the caves.</p>
+</div>
+</body>
+      </html>

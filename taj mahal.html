@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Mahal</title>
+</head><style>
+.slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(97, 70, 248);
+  }
+  .head{
+    text-align: center;
+    color:blue;
+    font-size: 20px;
+    text-decoration: double;
+  }
+  .about{
+    font-size: 2rem;
+    color:blue;
+    text-align: center;
+  }
+  body{
+    background-color:lightblue;
+  }
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1>Taj Mahal</h1>
+    </div>
+<div class="slider">
+  <span id="slide-1"></span>
+  <span id="slide-2"></span>
+  <span id="slide-3"></span>
+  <div class="image-container">
+    <img src="https://imgs.search.brave.com/BZbEac5BiIBo7nTA-RB4w01DV3vW_fqvmZgi4Q5EW8E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zMjcz/NjMucGNkbi5jby93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/NC9UYWotTWFoYWwu/anBnLm9wdGltYWwu/anBn" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/-d3Fj3U1-o5O63u76_VVaRASccUKWpAF7v156_xybxs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IwLzAz/LzRjL2IwMDM0YzFi/N2ZmMmQ5MTk4Nzg1/ZTk1NzA4Yzc1MGJl/LmpwZw" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/0chkHUfUZeIZxvH150UGl8dHHncljB75lXEtBVJgXHQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcz/MzkyNjk0L3Bob3Rv/L3Rhai1tYWhhbC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/dkpDa3FGR2wtbk5p/Vmt1OWxQbWx0SzhO/alRGT1VyVWRJZlJ4/WEhqV1pGVT0" class="slide" width="500" height="300" />
+  </div>
+  <div class="buttons">
+    <a href="#slide-1"></a>
+    <a href="#slide-2"></a>
+    <a href="#slide-3"></a>
+  </div>
+</div>
+<div class="about">
+    <p>The Taj Mahal  is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+
+        Construction of the mausoleum was essentially completed in 1643, but work continued on other phases of the project for another 10 years. The first ceremony held at the mausoleum was an observance by Shah Jahan, on 6 February 1643, of the 12th anniversary of the death of Mumtaz Mahal. The mausoleum was opened at that time to thousands of mourners.[7][8]
+        
+        The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹32 million, which in 2023 would be approximately ₹35 billion (US$498 million).[9] The construction project employed some 20,000 artisans under the guidance of a board of architects led by Ustad Ahmad Lahori, the emperor's court architect. Various types of symbolism have been employed in the Taj to reflect natural beauty and divinity.
+        
+        The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage". It is regarded by many as the best example of Mughal architecture and a symbol of India's rich history. The Taj Mahal attracts 7-8 million visitors a year,[10] and in 2007 it was declared a winner of the New 7 Wonders of the World (2000–2007) initiative.</p>
+</div>
+
+</body>
+</html>

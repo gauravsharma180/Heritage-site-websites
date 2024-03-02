@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Western Ghats</title>
+</head>
+<style>
+    .slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: lightgreen;
+  }
+  .head{
+    text-align: center;
+    text-decoration: double;
+    font-size: 20px;
+    color:darkgreen;
+  }
+  .about{
+    font-size: 2rem;
+    text-align: center;
+  
+  }
+  body{
+    background-color:yellowgreen;
+  }
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1>Western Ghats</h1>
+    </div>
+<div class="slider">
+  <span id="slide-1"></span>
+  <span id="slide-2"></span>
+  <span id="slide-3"></span>
+  <div class="image-container">
+    <img src="https://imgs.search.brave.com/R7iD1oUXem3k71Xjw8Odw0jCZl6TElrGxhtaf8pgHUQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/OS8wMy8yMC8zNS93/ZXN0ZXJuLWdoYXRz/LTI3MTE5NzRfNjQw/LmpwZw" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/zmOExy2N6a9LWnbPoSjLpmKINPLUZb-OvG4R0odUGug/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzczLzY0Lzg3/LzM2MF9GXzI3MzY0/ODcwMl9YSU40SWFB/Vkl0OWVmWXFHcmZN/ZUF3Wko0Q2IwRXIy/Yi5qcGc" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/SrQcG5znNdo9ekmWRylHJ50aXQheRDzhit9ndmgPLnM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE4/NzYyOTIyNS9waG90/by93ZXN0ZXJuLWdo/YXRzLWtlcmFsYS1p/bmRpYS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9NU5sRVdQ/eXJSWktwV1d2d1Vu/ZnJMNENGLW0wZkRB/WkdKOVFzVDFrel9U/Zz0" class="slide" width="500" height="300" />
+  </div>
+  <div class="buttons">
+    <a href="#slide-1"></a>
+    <a href="#slide-2"></a>
+    <a href="#slide-3"></a>
+  </div>
+</div>
+<div class="about">
+    <p>The Western Ghats are internationally recognized as a region of immense global importance for the conservation of biological diversity, besides containing areas of high geological, cultural and aesthetic values. A chain of mountains running parallel to India’s western coast, approximately 30-50 km inland, the Ghats traverse the States of Kerala, Tamil Nadu, Karnataka, Goa, Maharashtra and Gujarat. These mountains cover an area of around 140,000 km² in a 1,600 km long stretch that is interrupted only by the 30 km Palghat Gap at around 11°N.
+
+      Older than the great Himalayan mountain chain, the Western Ghats of India are a geomorphic feature of immense global importance. The Outstanding Universal Value of the Western Ghats is manifested in the region’s unique and fascinating influence on large-scale biophysical and ecological processes over the entire Indian peninsula. The mountains of the Western Ghats and their characteristic montane forest ecosystems influence the Indian monsoon weather patterns that mediate the warm tropical climate of the region, presenting one of the best examples of the tropical monsoon system on the planet. The Ghats act as a key barrier, intercepting the rain-laden monsoon winds that sweep in from the south-west during late summer.
+      
+      A significant characteristic of the Western Ghats is the exceptionally high level of biological diversity and endemism. This mountain chain is recognized as one of the world’s eight ‘hottest hotspots’ of biological diversity along with Sri Lanka. The forests of the Western Ghats include some of the best representatives of non equatorial tropical evergreen forests in the world. At least 325 globally threatened (IUCN Red Data List) species occur in the Western Ghats. The globally threatened flora and fauna in the Western Ghats are represented by 229 plant species, 31 mammal species, 15 bird species, 43 amphibian species, 5 reptile species and 1 fish species. Of the total 325 globally threatened species in the Western Ghats, 129 are classified as Vulnerable, 145 as Endangered and 51 as Critically Endangered.</p>
+</div>
+</body>
+</html>

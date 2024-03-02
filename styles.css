@@ -1,0 +1,114 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #daebed;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.sites {
+    text-align: center;
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    height: 600px; /* Adjust the height as needed */
+    position: relative;
+    overflow: hidden;
+    animation: changeBackground 15s infinite; /* Adjust timing as needed */
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url('image1.jpg'); /* Specify your image URLs */
+    }
+    25%{
+        background-image: url('image4.jpg');
+    }
+    50% {
+        background-image: url('image2.jpg');
+    }
+    75% {
+        background-image: url('image3.jpg');
+    }
+    100% {
+        background-image: url('image1.jpg'); /* Back to the first image */
+    }
+}
+
+.sites::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sites h2,
+.sites p,
+.sites .btn {
+    position: relative;
+    z-index: 1;
+    color: white; /* Adjust text color as needed */
+}

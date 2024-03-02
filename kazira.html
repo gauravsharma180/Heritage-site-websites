@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaziranga National Park</title>
+</head>
+<style>
+    .slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: lightgreen;
+  }
+  .head{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: double;
+  }
+  .about{
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+  body{
+    background-color: rgb(174, 199, 34);
+  }
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1>Kaziranga National Park</h1>
+    </div>
+<div class="slider">
+  <span id="slide-1"></span>
+  <span id="slide-2"></span>
+  <span id="slide-3"></span>
+  <div class="image-container">
+    <img src="https://imgs.search.brave.com/pS-0qZtIQjzCK7L3ea1g3s-BSUX4Kx4VRmWoIzXI3jg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/a2F6aXJhbmdhdG91/cmlzbS5jb20vaW1h/Z2VzL2EyLmpwZw" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/J7wT5vKUoAkF8IORT0VwehJIBTTmChidHro7FB6H1lo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vbmVub3cu/aW4vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTkvMTAvMy05Lmpw/Zz9maXQ9MTAzMCw2/ODYmc3NsPTE" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/l9MB6EzV53t3oA-adtqp0CbBUSPjnDEH6BtfgQjU0N4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmtp/bmphLWltZy5jb20v/aW1hZ2UvdXBsb2Fk/L2NfZml0LHFfNjAs/d182NDUvMGQzMDcy/MzRjNTQ5MWNkZDBj/Njg3ODU0YWZiOThi/NDYuanBn" class="slide" width="500" height="300" />
+  </div>
+  <div class="buttons">
+    <a href="#slide-1"></a>
+    <a href="#slide-2"></a>
+    <a href="#slide-3"></a>
+  </div>
+</div>
+<div class="about">
+    <p>Kaziranga National Park represents one of the last unmodified natural areas in the north-eastern region of India. Covering 42,996 ha, and located in the State of Assam it is the single largest undisturbed and representative area in the Brahmaputra Valley floodplain. The fluctuations of the Brahmaputra River result in spectacular examples of riverine and fluvial processes in this vast area of wet alluvial tall grassland interspersed with numerous broad shallow pools fringed with reeds and patches of deciduous to semi-evergreen woodlands. Kaziranga is regarded as one of the finest wildlife refuges in the world. The park’s contribution in saving the Indian one-horned rhinoceros from the brink of extinction at the turn of the 20th century to harbouring the single largest population of this species is a spectacular conservation achievement. The property also harbours significant populations of other threatened species including tigers, elephants, wild water buffalo and bears as well as aquatic species including the Ganges River dolphin. It is an important area for migratory birds.
+
+        Criterion (ix): River fluctuations by the Brahmaputra river system result in spectacular examples of riverine and fluvial processes. River bank erosion, sedimentation and formation of new lands as well as new water-bodies, plus succession between grasslands and woodlands represents outstanding examples of significant and ongoing, dynamic ecological and biological processes. Wet alluvial grasslands occupy nearly two-thirds of the park area and are maintained by annual flooding and burning. These natural processes create complexes of habitats which are also responsible for a diverse range of predator/prey relationships.
+        
+        Criterion (x): Kaziranga was inscribed for being the world’s major stronghold of the Indian one-horned rhino, having the single largest population of this species, currently estimated at over 2,000 animals. The property also provides habitat for a number of globally threatened species including tiger, Asian elephant, wild water buffalo, gaur, eastern swamp deer, Sambar deer, hog deer, capped langur, hoolock gibbon and sloth bear. The park has recorded one of the highest density of tiger in the country and has been declared a Tiger Reserve since 2007. The park’s location at the junction of the Australasia and Indo-Asian flyway means that the park’s wetlands play a crucial role for the conservation of globally threatened migratory bird species. The Endangered Ganges dolphin is also found in some of the closed oxbow lakes.</p>
+</div>
+    </body>
+</html>

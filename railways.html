@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Railways of India</title>
+</head>
+<style>
+    .slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(63, 33, 230);
+  }
+  .head{
+    text-align: center;
+    color: bisque;
+    font-size: 20px;
+    text-decoration: double;
+  }
+  .about{
+    font-size: 2rem;
+    color: bisque;
+    text-align: center;
+  }
+  body{
+    background-color: rgb(94, 154, 189);
+  }
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1>Mountain Railways of India</h1>
+    </div>
+<div class="slider">
+  <span id="slide-1"></span>
+  <span id="slide-2"></span>
+  <span id="slide-3"></span>
+  <div class="image-container">
+    <img src="https://imgs.search.brave.com/iJJeuXcd_RuTYxM3WUVz58_-9m16sdLSWw-k1Eq_3Kc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dG91cmlzbS1vZi1p/bmRpYS5jb20vcGlj/dHVyZXMvdHJhdmVs/X2d1aWRlL2F0dHJh/Y3Rpb25zL21vdW50/YWluLXJhaWx3YXlz/LWluZGlhLWhlYWQt/NDU4LmpwZWc" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/ihLIoPw4vbON0RMXZKEfx6E4lE4BYRJmhsV3l5blxAk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/d29ybGRoZXJpdGFn/ZXNpdGUub3JnL3Bp/Y3gvdzk0NC5qcGc" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/PcsIeLHRr2ycduYSJK3eTcmliqg9gdTVs-jrQuhB-xg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dG91cm15aW5kaWEu/Y29tL2Jsb2cvL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE0LzA4/L2thbGthLXNoaW1s/YS5qcGc" class="slide" width="500" height="300" />
+  </div>
+  <div class="buttons">
+    <a href="#slide-1"></a>
+    <a href="#slide-2"></a>
+    <a href="#slide-3"></a>
+  </div>
+</div>
+<div class="about">
+    <p>The Mountain Railway of India consists of three railways: the Darjeeling Himalayan Railway located in the foothills of the Himalayas in West Bengal (Northeast India) having an area of 5.34 ha., the Nilgiri Mountain Railways located in the Nilgiri Hills of Tamil Nadu (South India) having an area of 4.59 ha. and the Kalka Shimla Railway located in the Himalayan foothills of Himachal Pradesh (Northwest India) having an area of 79.06 ha. All three railways are still fully functional and operational.
+
+      The Mountain Railways of India are outstanding examples of hill railways. Opened between 1881 and 1908 they applied bold and ingenious engineering solutions to the problem of establishing an effective rail link across a mountainous terrain of great beauty. They are still fully operational as living examples of the engineering enterprise of the late 19th and early 20th centuries.
+      
+      The Darjeeling Himalayan Railway consists of 88.48 kilometers of 2 feet (0.610 meter) gauge track that connects New Jalpaiguri with Darjeeling, passing through Ghoom at an altitude of 2258 meters. The innovative design includes six zigzag reverses and three loops with a ruling gradient of 1:31.
+      The construction of the Nilgiri Mountain Railway, a 45.88 kilometer long meter-gauge single-track railway was first proposed in 1854, but due to the difficulty of the mountainous location the work only started in 1891 and was completed in 1908. This railway, scaling an elevation of 326 meters to 2,203 meters, representsed the latest technology of the time and uses unique rack and pinion traction arrangement to negotiate steep gradient.
+      
+      The Kalka Shimla Railway, a 96.6 kilometer long, single track working rail link built in the mid-19th century to provide a service to the highland town of Shimla is emblematic of the technical and material efforts to disenclave mountain populations through the railway. The world's highest multi-arc gallery bridge and the world's longest tunnel (at the time of construction) of the KSR were the a testimony toof the brilliantce engineering skills applied to make thisa dream a reality.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agra Fort</title>
+</head><style>
+
+.slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(196, 203, 219);
+  }
+  .head{
+    text-align: center;
+    color:darkred;
+    font-size: 20px;
+    text-decoration: double;
+  }
+  .about{
+    font-size: 2rem;
+    color: darkred;
+    text-align: center;
+  }
+  body{
+    background-color: lightsalmon;
+  }
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1>Agra Fort</h1>
+    </div>
+<div class="slider">
+  <span id="slide-1"></span>
+  <span id="slide-2"></span>
+  <span id="slide-3"></span>
+  <div class="image-container">
+    <img src="https://imgs.search.brave.com/uF8peSpSHDWeo7S9qBxyf3ii3DJTHFApj8zaQRMuabo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzIxLzM1LzQ1/LzM2MF9GXzIxMzU0/NTUyX1hlZjRwbGxS/cjZWRHA0NGhOR1oy/M21JVkNCbE9Uemhx/LmpwZw" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/dXTYYDTuonbZGprnYxQoOybOETu8cpHw4ZfDE9oHwH0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi83LzdlL0Fn/cmFfMDMtMjAxNl8x/MF9BZ3JhX0ZvcnQu/anBnLzUxMnB4LUFn/cmFfMDMtMjAxNl8x/MF9BZ3JhX0ZvcnQu/anBn" class="slide" width="500" height="300" />
+    <img src="https://imgs.search.brave.com/FGcpXbTx0Lm7pO-CVUXTPsyu54HnjP86dyO9dY0zXIs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dHJpcHNhdnZ5LmNv/bS90aG1iL2ZaT3p1/LTFMN3JLRkJtcVB0/SzFMaDZxYkxsYz0v/MTUwMHgwL2ZpbHRl/cnM6bm9fdXBzY2Fs/ZSgpOm1heF9ieXRl/cygxNTAwMDApOnN0/cmlwX2ljYygpL0dl/dHR5SW1hZ2VzLTQ3/OTgxMDk1Mi1iNjM5/ODk1M2ExZmE0MWU4/YTMyYjUzNGI2NDc2/M2I2NS5qcGc" class="slide" width="500" height="300" />
+  </div>
+  <div class="buttons">
+    <a href="#slide-1"></a>
+    <a href="#slide-2"></a>
+    <a href="#slide-3"></a>
+  </div>
+</div>
+<div class="about">
+    <p>The Agra Fort (Qila Agra) is a historical fort in the city of Agra, and also known as Agra's Red Fort. Mughal emperor Humayun was crowned at this fort. It was later renovated by the Mughal emperor Akbar from 1565 and the present-day structure was completed in 1573. It served as the main residence of the rulers of the Mughal dynasty until 1638, when the capital was shifted from Agra to Delhi. It was also known as the "Lal-Qila" or "Qila-i-Akbari". Before being captured by the British, the last Indian rulers to have occupied it were the Marathas. In 1983, the Agra fort was inscribed as a UNESCO World Heritage Site because of its importance during the Mughal Dynasty. It is about 2.5 kilometers (1.6 mi) northwest of its more famous sister monument, the Taj Mahal. The fort can be more accurately described as a walled city. It was later renovated by Shah Jahan.
+
+      Like the rest of Agra, the history of Agra Fort prior to Mahmud of Ghazni's invasion is unclear. However, in the 15th century, the Chauhan Rajputs occupied it. Soon after, Agra assumed the status of capital when Sikandar Khan Lodi (1487–1517 CE) shifted his capital from Delhi and constructed a few buildings in the preexisting fort at Agra. After the first battle of Panipat (1526 CE), Mughals captured the fort and ruled from it. In 1530 CE, Humayun was crowned in it. The fort was given its present appearance during the reign of Akbar (1556–1605 CE). Later, this fort was under the rule of Jats of Bharatpur for 13 years.</p>
+</div>
+    </body>
+</html>
