@@ -74,11 +74,13 @@ footer {
     0% {
         background-image: url('image1.jpg'); 
     }
+    25%{  background-image: url('image4.jpg');
+       }
     
-    33.3% {
+    50% {
         background-image: url('image2.jpg');
     }
-    66.6% {
+    75% {
         background-image: url('image3.jpg');
     }
     100% {
