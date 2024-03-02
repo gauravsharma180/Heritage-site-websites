@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -71,15 +71,15 @@ footer {
     padding: 50px 0;
     background-size: cover;
     background-position: center;
-    height: 600px; /* Adjust the height as needed */
+    height: 600px; 
     position: relative;
     overflow: hidden;
-    animation: changeBackground 15s infinite; /* Adjust timing as needed */
+    animation: changeBackground 15s infinite; 
 }
 
 @keyframes changeBackground {
     0% {
-        background-image: url('image1.jpg'); /* Specify your image URLs */
+        background-image: url('image1.jpg'); 
     }
     25%{
         background-image: url('image4.jpg');
@@ -91,13 +91,13 @@ footer {
         background-image: url('image3.jpg');
     }
     100% {
-        background-image: url('image1.jpg'); /* Back to the first image */
+        background-image: url('image1.jpg'); 
     }
 }
 
 .sites::after {
     content: "";
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as needed */
+    background-color: rgba(0, 0, 0, 0.5); 
     position: absolute;
     top: 0;
     left: 0;
@@ -110,5 +110,5 @@ footer {
 .sites .btn {
     position: relative;
     z-index: 1;
-    color: white; /* Adjust text color as needed */
+    color: white; 
 }
