@@ -22,14 +22,7 @@ header h1 {
     font-size: 2em;
 }
 
-nav ul {
-    list-style: none;
-}
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
 
 
 
@@ -81,13 +74,11 @@ footer {
     0% {
         background-image: url('image1.jpg'); 
     }
-    25%{
-        background-image: url('image4.jpg');
-    }
-    50% {
+    
+    33.3% {
         background-image: url('image2.jpg');
     }
-    75% {
+    66.6% {
         background-image: url('image3.jpg');
     }
     100% {
